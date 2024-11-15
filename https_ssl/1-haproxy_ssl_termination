@@ -40,6 +40,6 @@ frontend precious_frontend
 # Backend (forwarding unencrypted traffic)
 backend precious_backend
     balance roundrobin
-    server web-01 54.90.179.62:80 check
-    server web-02 18.214.99.45:80 check
+    server web-01 34.228.55.164:80 check
+    server web-02 34.236.153.254:80 check
 
